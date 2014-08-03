@@ -1,2 +1,4 @@
 baseurl: /jekyll
 encoding: utf-8
+markdown: rdiscount
+pygments: true
