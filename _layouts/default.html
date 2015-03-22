@@ -1,57 +1,16 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Jekyll" />
-	  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <!-- Bootstrap JS -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="javascripts/bootstrap.min.js"></script>
-      <!-- Bootstrap CSS-->
-<!--     <link href="stylesheets/bootstrap.min.css" rel="stylesheet" media="screen"> -->
-    <link href="stylesheets/bootstrap-responsive.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/prettify.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/custom.css">
-	  <title>{{page.title}}</title>
-  </head>
+{% include head.html %}
 
-  <body>
+<body>
 
-    <!-- HEADER -->
-      <div class="navbar" id="nav">
-        <div class="navbar-inner">
-          <ul class="nav">
-            <li><a href="#">首页</a></li>
-          </ul>
-        </div>
-      </div>
+    {% include nav.html %}
 
-        <div class="row-fluid">
-          <div>
-            <div class="jumbotron">
-                        Love Code , Love Life !
-            </div>
-          </div>
-        </div>
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-      {{content}}
-      </section>
-    </div>
+    {{ content }}
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Jekyll maintained by <a href="https://github.com/lovejwj2004">lovejwj2004</a></p>
-        <a href="http://weibo.com/lovejwj2004?wvr=5&"><img src="images/contacts-weibo.png"></a>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-  </body>
+    {% include footer.html %}
+
+</body>
+
 </html>
