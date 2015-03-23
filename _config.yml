@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: Chne's Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: lovejwj2004@gmail.com
+description: "这是一个基于Github Page和Jekyll技术的个人博客，我会偶尔在上面吐槽点生活中的琐事也会在上面记录下自己工作和生活中的心得与机会。总之，它就是我的小天地充满着关于我的一切。"
 baseurl: "/jekyll"
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: sunshinechne
+github_username:  lovejwj2004
+facebook_username:  dia.chne
 
 # Build settings
 markdown: kramdown
