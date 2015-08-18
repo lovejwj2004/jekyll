@@ -96,8 +96,7 @@ XSS防御:
 
 <h2 class="section-heading">SQL注入</h2>
 主要原因是因为用户提交的数据被用来当成命令来执行，比如下面的代码:
-<pre><code>select * from user where username = 'leo'; drop table user--'
-</code></pre>
+<pre><code>select * from user where username = 'leo'; drop table user--'</code></pre>
 
 Solution: 
 使用预编译语句
