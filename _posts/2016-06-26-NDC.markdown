@@ -1,0 +1,76 @@
+---
+layout:     post
+title:      "NDC"
+subtitle:   "Air"
+date:       2016-06-26 23:50:00
+author:     "chne"
+header-img: "img/ndc.png"
+---
+
+# NDC
+
+> NDC的内容最早是由美国航空公司AA为了应对GDS昂贵的分销成本以及僵硬的销售支持而提出的解决方案，后期因为Sabre的阻扰一度搁浅后摇身一变成为IATA的NDC开始在全球范围内进行推广开来
+
+
+## What is NDC
+
+NDC是什么按照IATA的官方定义如下
+
+> NDC is a travel industry-supported program launched by IATA for the development and market adoption of a new, XML-based data transmission standard
+> NDC is about giving travel agents the same capability as airline websites
+> The NDC standard will enhance the capability of communications between airlines and travel agents, and will be open to any third party, intermediary, IT provider or non-IATA member, to implement and use.
+
+按照个人的理解简单来说就是:
+
+​	航空公司通过XML作为数据传输方式为第三方提供与自身官网相等服务的API接口，同时航空公司具备动态、灵活的产品销售策略制定能力以及针对旅客的个性化服务的一套标准。
+
+ ![NDC Architecture]({{ site.baseurl }}/img/NDC_Architecture.png)
+
+## Advantage
+
+相比传统现行的GDS分销系统，NDC对于航空公司、Travel Agent以及旅客都有着不错的优点
+
+航空公司
+
+* 具备更强的控制能力，运价、航班时刻不再依赖于第三方或者是GDS。可以自己根据市场情况进行动态实时的更新与调整占据主导地位。
+* 能够提供更加丰富与差异化的产品与服务。
+* 更加直接的了解用户行为提供个性化、可靠的服务避免中间环节影响公司品牌。
+
+
+
+Travel Agent
+
+* 能够直接从航司获取更加丰富的产品
+* 提供服务信息的实时性
+
+
+
+旅客
+
+* 更加可靠的服务
+* 更多服务与产品将旅途变得更加轻松
+* 个性化差异服务满足不同人群的需求
+
+
+
+## Challenge
+
+航空公司
+
+* 具备相应的IT实力或者寻找到可靠的技术厂商协作NDC的实现或集成。
+* NDC的优势是航空公司能够提供更多的产品与服务，这个是需要航空公司自己具备的能力。
+* Travel Agent对NDC的对接与使用培训
+* GDS的阻扰
+
+Travel Agent
+
+* NDC新系统的对接开发
+* NDC业务人员的培训与落地
+
+旅客
+
+* 个人隐私问题
+
+## Summary
+
+以上只是对NDC这个新标准的简单讨论，并未涉及到NDC的具体内容。同时NDC在全球范围内还处于刚刚起步的阶段，在大陆更是如此即使有的航空公司已经开始研究和尝试NDC的落地。但真的想要通过NDC在日益同质化的航空类产品与服务中脱颖而出还有待整个的行业的不懈研究与期待。
