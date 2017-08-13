@@ -1,20 +1,53 @@
-# Site settings
-title: Chne's Blog
-header-img: img/home-bg.jpg
-email: lovejwj2004@gmail.com
-description: "这是一个基于Github Page和Jekyll技术的个人博客，我会偶尔在上面吐槽点生活中的琐事也会在上面记录下自己工作和生活中的心得与机会。总之，它就是我的小天地充满着关于我的一切。"
-baseurl: "/jekyll"
-url: "http://yourdomain.com"
-twitter_username: sunshinechne
-github_username:  lovejwj2004
-facebook_username:  dia.chne
+# Basic
+title: chen
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: leopardpan
+# 头像里面的描述
+avatarDesc: Java
+url: ""
 
-# Build settings
-markdown: kramdown
+
+
+# Social
+social:
+    # twitter:
+    mail: lovejwj2004@gmail.com
+
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址：http://lovejwj2004.github.io/jekyll/o
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
 highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-# plugins
-plugins: [jekyll-paginate]
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 关于我, description: about, url: '/about'}
+
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
