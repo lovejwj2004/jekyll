@@ -4,7 +4,7 @@ title:      "Information Filter"
 subtitle:   "Fiter"
 date:       2015-08-18 23:27:00
 author:     "chne"
-header-img: "img/post-workflow-title.png"
+header-img: "images/post-workflow-title.png"
 ---
 
 我们每天不管是工作邮箱还是私人邮箱都会受到数量不少的邮件，对于我们来说所有的邮件都一封一封的看太浪费时间了。但是，如果不看又怕漏掉重要的邮件导致一些不必要的事情发生。这个时候最好的方法就是对邮件进行过滤和优先级的划分，这些我们优先查看和自己相关的那些邮件避免不会遗漏重要邮件同时对于那些和自己并不相关的邮件可以忽略节省精力。
@@ -43,7 +43,7 @@ header-img: "img/post-workflow-title.png"
 以上的这几点还可以根据分为零碎时间和专门时间类型在不同的场景下进行处理:
 
 零碎时间:
-	资讯类+科普类 
+	资讯类+科普类
 专门时间:
 	专业性
 

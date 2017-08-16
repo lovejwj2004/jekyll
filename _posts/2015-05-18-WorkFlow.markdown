@@ -4,7 +4,7 @@ title:      "WorkFlow"
 subtitle:   "Work"
 date:       2015-05-18 22:27:00
 author:     "chne"
-header-img: "img/post-workflow-title.png"
+header-img: "images/post-workflow-title.png"
 ---
 
 对于自己目前在项目中所采用的开发工作流程其实一早就发现存在不少的问题，导致一个需求的开发流程走下来花费的时间太多。更重要的是中间很多环节是重复的而且还容易因为粗心的原因引入差错。终于今天，在花费一番不小的力气竟然只是为了完成一个小需求的代码提交功能前提下针对工作流的这个问题开始了反思。
@@ -13,7 +13,7 @@ header-img: "img/post-workflow-title.png"
 <h2 class="section-heading">思绪图</h2>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-workflow.png" alt="workflow">
+    <img src="{{ site.baseurl }}/images/post-workflow.png" alt="workflow">
 </a>
 
 <h3>现况</h3>

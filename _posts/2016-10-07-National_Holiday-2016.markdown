@@ -4,7 +4,7 @@ title:      "National Holiday 2016"
 subtitle:   "Life"
 date:       2016-10-07 17:30:00
 author:     "chne"
-header-img: "img/chinese_national_holiday.jpg"
+header-img: "images/chinese_national_holiday.jpg"
 ---
 
 
@@ -18,7 +18,7 @@ header-img: "img/chinese_national_holiday.jpg"
 
 这个国庆做了什么，虽然国庆假期时间挺长的但是细细回想一下每天做的很多事情都是差不多的真真能够列出来的就是下面这几件事情了
 
- ![national_holiday_2016]({{ site.baseurl }}/img/national_holiday_2016.png)
+ ![national_holiday_2016]({{ site.baseurl }}/images/national_holiday_2016.png)
 国庆假期休息肯定是必不可少的事情，所以国庆的前面2天都花在休息上了尤其是在国庆前经历了一周两次惨无人道的上线后睡眠和休息就显得尤为重要了。同时也趁国庆假期打扫了下住所，同时也整理了下冰箱慢慢开始用起来也将前面中断的喝茶爱好开始拾起总之生活开始慢慢步入正常，当然也确保自己每天都要吃个早餐健康的饮食嘛。买了瑜伽垫准备开始认认真真的锻炼身体，冬被也买好了准备迎接冬日的到来。
 
 当然国庆，也值了一天的班虽然没有出什么事情。但是，那一天还是有点担惊受怕不过还好一切都OK。

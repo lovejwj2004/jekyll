@@ -4,7 +4,7 @@ title:      "Web Security"
 subtitle:   "Web"
 date:       2015-04-26 22:53:00
 author:     "chne"
-header-img: "img/post-security-bg.jpg"
+header-img: "images/post-security-bg.jpg"
 ---
 
 最近因为工作的原因进行了一次Web安全培训，说实话对于这一块的知识以前基本上没有什么概念和经验。而且，因为工作后的项目基本上都是企业内部的引用或者是公司自己内部的系统在安全这块因为基本上是在内网使用所以安全这块也没有像B2C这种电商网店特别注意刚好今天晚上看到了和这个注意相关的系列文章。
@@ -47,7 +47,7 @@ header-img: "img/post-security-bg.jpg"
 
 风险评估
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-security-01.png" alt="Risk Calculate">
+    <img src="{{ site.baseurl }}/images/post-security-01.png" alt="Risk Calculate">
 </a>
 
 <h2 class="section-heading">浏览器的跨域访问</h2>
@@ -87,7 +87,7 @@ header-img: "img/post-security-bg.jpg"
 
 Solution:防御Cookie劫持的一个简单的方法是在Set-Cookie时加上HttpOnly标识，浏览器禁止JavaScript访问带HttpOnly的Cookie。
 
-XSS防御: 
+XSS防御:
 
 1. 输入检查,对特殊字符做编码或过滤。 一定要在后台做检查。
 
@@ -98,7 +98,7 @@ XSS防御:
 主要原因是因为用户提交的数据被用来当成命令来执行，比如下面的代码:
 <pre><code>select * from user where username = 'leo'; drop table user--'</code></pre>
 
-Solution: 
+Solution:
 使用预编译语句
 <pre><code>String sql = "select * from user where username = ?";
 PreparedStatement pstmt = conn.prepareStatement(sql);

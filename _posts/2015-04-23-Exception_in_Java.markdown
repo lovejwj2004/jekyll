@@ -4,7 +4,7 @@ title:      "Exception in Java"
 subtitle:   "Excpetion"
 date:       2015-04-23 21:20:00
 author:     "chne"
-header-img: "img/Exception.jpg"
+header-img: "images/Exception.jpg"
 ---
 
 <p>Java中的异常从内容上来说，实在没什么太复杂的内容。不过就是，可能有异常的代码需要使用Try/Catch语句包括起来或者是向上抛出，finally中的语句不管怎样都会被执行。但是，还是那句老话说起来容易做起来难异常用的不好影响系统性能而且还找不到错误原因，所以Java中的异常是门学问。</p>
@@ -13,7 +13,7 @@ header-img: "img/Exception.jpg"
 
 <h2 class="section-heading">总览</h2>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/exception-01.png" alt="Java Exception Overview">
+    <img src="{{ site.baseurl }}/images/exception-01.png" alt="Java Exception Overview">
 </a>
 
 <h3>Class</h3>
@@ -69,7 +69,7 @@ class DBUtil{
     }
 }
 </code></pre>
-+ 
++
 永远不要拿Exception来进行流程控制,因为Exception重构的堆栈路径是很耗资源.
 <pre><code>
 public void useExceptionsForFlowControl() {
@@ -88,9 +88,9 @@ public void increaseCount()
         throw new MaximumCountReachedException();
 }
 </code></pre>
-+ 
++
 不要忽略异常,一般来说如果代码抛出Checked Exception那么代码是在尝试告诉你信息希望你能够恢复此段代码，如果不是这样的话那么果断应该换成Unchecked Exception。所以，对于Checked Exception的异常不要直接忽略掉.
 +
 同一个异常只记录一次，避免造成不必要的亦或。
-+ 
++
 不要将catch Exception这样的语句放在异常捕捉的最开始，因为所有的异常都是继承Exception那么其它的子类异常将直接被Exception的catch捕捉到。

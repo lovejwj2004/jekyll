@@ -4,7 +4,7 @@ title:      "Travel"
 subtitle:   "Person"
 date:       2015-09-03 22:27:00
 author:     "chne"
-header-img: "img/street.png"
+header-img: "images/street.png"
 ---
 
 #旅行

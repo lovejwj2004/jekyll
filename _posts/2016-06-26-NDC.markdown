@@ -4,7 +4,7 @@ title:      "NDC"
 subtitle:   "Air"
 date:       2016-06-26 23:50:00
 author:     "chne"
-header-img: "img/ndc.png"
+header-img: "images/ndc.png"
 ---
 
 # NDC
@@ -24,7 +24,7 @@ NDC是什么按照IATA的官方定义如下
 
 ​	航空公司通过XML作为数据传输方式为第三方提供与自身官网相等服务的API接口，同时航空公司具备动态、灵活的产品销售策略制定能力以及针对旅客的个性化服务的一套标准。
 
- ![NDC Architecture]({{ site.baseurl }}/img/NDC_Architecture.png)
+ ![NDC Architecture]({{ site.baseurl }}/images/NDC_Architecture.png)
 
 ## Advantage
 
