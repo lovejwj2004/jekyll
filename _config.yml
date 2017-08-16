@@ -3,11 +3,11 @@ title: chen
 subtitle: 个人站
 description: 欢迎来到我的个人站~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: tk_chen
 # 头像里面的描述
 avatarDesc: Java
 url: "http://lovejwj2004.github.io/jekyll/"
-baseurl: 
+baseurl:
 
 
 # Social
@@ -27,7 +27,7 @@ social:
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
 
-permalink: /:year/:month/:title/
+permalink: jekyll/:year/:month/:title/
 # Format
 highlighter: rouge
 
