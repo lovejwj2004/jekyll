@@ -6,8 +6,8 @@ description: 欢迎来到我的个人站~
 avatarTitle: tk_chen
 # 头像里面的描述
 avatarDesc: Java
-url: "http://lovejwj2004.github.io/"
-baseurl:
+url: "http://lovejwj2004.github.io"
+baseurl: /jekyll
 
 
 # Social
